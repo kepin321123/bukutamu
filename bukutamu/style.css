@@ -1,0 +1,51 @@
+
+.navbar a {
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.navbar a:hover {
+    background: #f9f7f7;
+    color: #dc1a1a;
+} 
+
+
+table{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding:20px;
+    background: white;
+    margin-top: 20px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+a.tambah {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    background: blue;
+    font-size: 16px;
+}
+
+a.edit{
+    text-decoration: none;
+}
+
+a.hapus{
+    text-decoration: none;
+}
